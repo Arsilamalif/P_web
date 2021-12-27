@@ -31,6 +31,8 @@ ol,ul, img, p{
     padding: 0px;
     overflow: hidden;
     background-color: #2afa00;
+    position: sticky;
+    top: 0;
 }
 
 #navbar li{
@@ -85,4 +87,5 @@ tr:hover{
     text-align: center;
     color: white;
     margin-top: 15px;
+    
 }
