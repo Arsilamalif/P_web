@@ -1,5 +1,5 @@
 body{
-    background-color: #cb00f3;
+    background-color: #4b9ce7;
 }
 
 hr{
@@ -9,7 +9,7 @@ hr{
     border-style: none;
     border-top-style: dotted;
     width: 30%;
-    border-color: #00c3ff;
+    border-color: #15436d;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -180,4 +180,46 @@ input[type=radio]{
 input[type=checkbox]{
       width     : auto;
 
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 'side main main main';
+    margin-bottom: 100px;
+}
+
+.article-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul{
+
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    color: #000;
+}
+
+
+.sidebar a{
+    display: block;
+    color: #007e69;
+    padding: 8px 16px;
+    text-decoration: none;
+    width: 200px;
+}
+
+.sidebar a:hover{
+    background-color: #08587c;
+    color:     #ffffff;
+}
+
+
+
+
+p.L:first-letter {
+    font-size: 50px;
+    font-weight: bold;
 }
