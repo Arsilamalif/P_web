@@ -44,12 +44,39 @@ console.log('a !== b =', a !== b)//menunjukkan bahwa a tidak sama dengan b
 
 
 console.log('true && true =', true && true)//menampilkan bahwa hasil true jika keduanya true
-console.log('true && false =', true && false)//jika a true 
-console.log('false && true =', false && true)
-console.log('false && false =', false && false)
-console.log('true || true =', true || true)
-console.log('true || false =', true || false)
-console.log('false || true =', false || true)
-console.log('false || false =', false || false)
-console.log('!true =', !true)
-console.log('!false =', !false)
+console.log('true && false =', true && false)//jika a true dan b false maka akan menampilkan false
+console.log('false && true =', false && true)//jika a false dan b true maka tetap false
+console.log('false && false =', false && false)//jika keduanya false maka tetap false
+console.log('true || true =', true || true)//jika keduanya true makan akan tetap true
+console.log('true || false =', true || false)//jika a true dan b false maka akan menampilkan true
+console.log('false || true =', false || true)//jika a false dan b true maka akan menampilkan false
+console.log('false || false =', false || false)//jika keduanya false maka akan tetap false
+console.log('!true =', !true)//jika nottrue maka akan menampilkan false
+console.log('!false =', !false)//jika notfalse maka akan menampilkan true
+
+
+function hitungLuasPersegi(s) { //befungsi menghitung luas persegi
+    var luas = s * s //mengalikan sisi dengan sisi
+    return luas //return luas
+  }
+  var hasil = hitungLuasPersegi(5)//set nilai sisi menjadi lima
+  console.log(hasil)//menampilkan hasil luas persegi
+
+
+
+function luasSegitiga(a,t) { //berfungsi membuat luas segitiga
+    var l2=(a * t) / 2 //membuat rumus alas * tinggi / 2
+    return l2 //return variable 12
+  }
+  var h2=luasSegitiga(3,4)//set nilai dari a dan t
+  console.log(h2)//menampilkan hasil dari luas segitiga
+
+
+
+function volumeBalok(p,l,t){ //berfungsi menghitung volume balok
+      var v=(p * l * t) //membuat variable v
+      return v//return dari v
+
+  }
+  var h3=volumeBalok(4,4,4)//set nilai dari p,l,t
+  console.log(h3)//menampilkan hasil volume balok
