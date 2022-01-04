@@ -108,3 +108,29 @@ console.log(namahewan); // menampilkan array
 
 console.log(namahewan.sort()); // mengurutkan Array
 console.log(namahewan); // menampilkan array 
+
+
+let pasien = {
+    firstName: "Andrian",//membuat variable firstname
+    lastName : "ArsilamalifAkbar",//membuat variable lastname
+    tanggallahir : "27-01-01",//membuat variable tanggal lahir
+    nokamar : "16",//membuat variable nomor kamar
+    nopasien :"001",//membuat variable nomor pasien
+    fullName : function() {//membuat fungsi fullname
+    return this.firstName + " " + this.lastName;//menggabungkan firstname dan lastname
+    }
+    };
+
+    console.log(pasien.firstName);//menampilkan firstname Dot Notation 
+    console.log(pasien.lastName);//menampilkan lastname Dot Notation 
+    console.log(pasien.tanggallahir);//menampilkan tanggal lahir Dot Notation 
+    console.log(pasien.nokamar);//menampilkan nomor kamar Dot Notation 
+    console.log(pasien.nopasien);//menampilkan nomor pasien Dot Notation 
+    console.log(pasien.fullName());//menampilkan pasien Dot Notation 
+
+    console.log(pasien["firstName"]);//menampilkan firstname Bracket Notation
+    console.log(pasien["lastName"]);//menampilkan lastName Bracket Notation
+    console.log(pasien["tanggallahir"]);//menampilkan tanggal lahir Bracket Notation
+    console.log(pasien["nokamar"]);//menampilkan nomor kamarBracket Notation
+    console.log(pasien["nopasien"]);//menampilkan nomor pasien Bracket Notation
+    console.log(pasien["fullName"]());//menampilkan pasien Bracket Notation
