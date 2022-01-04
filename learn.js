@@ -121,16 +121,28 @@ let pasien = {
     }
     };
 
-    console.log(pasien.firstName);//menampilkan firstname Dot Notation 
-    console.log(pasien.lastName);//menampilkan lastname Dot Notation 
-    console.log(pasien.tanggallahir);//menampilkan tanggal lahir Dot Notation 
-    console.log(pasien.nokamar);//menampilkan nomor kamar Dot Notation 
-    console.log(pasien.nopasien);//menampilkan nomor pasien Dot Notation 
-    console.log(pasien.fullName());//menampilkan pasien Dot Notation 
+console.log(pasien.firstName);//menampilkan firstname Dot Notation 
+console.log(pasien.lastName);//menampilkan lastname Dot Notation 
+console.log(pasien.tanggallahir);//menampilkan tanggal lahir Dot Notation 
+console.log(pasien.nokamar);//menampilkan nomor kamar Dot Notation 
+console.log(pasien.nopasien);//menampilkan nomor pasien Dot Notation 
+console.log(pasien.fullName());//menampilkan pasien Dot Notation 
 
-    console.log(pasien["firstName"]);//menampilkan firstname Bracket Notation
-    console.log(pasien["lastName"]);//menampilkan lastName Bracket Notation
-    console.log(pasien["tanggallahir"]);//menampilkan tanggal lahir Bracket Notation
-    console.log(pasien["nokamar"]);//menampilkan nomor kamarBracket Notation
-    console.log(pasien["nopasien"]);//menampilkan nomor pasien Bracket Notation
-    console.log(pasien["fullName"]());//menampilkan pasien Bracket Notation
+console.log(pasien["firstName"]);//menampilkan firstname Bracket Notation
+console.log(pasien["lastName"]);//menampilkan lastName Bracket Notation
+console.log(pasien["tanggallahir"]);//menampilkan tanggal lahir Bracket Notation
+console.log(pasien["nokamar"]);//menampilkan nomor kamarBracket Notation
+console.log(pasien["nopasien"]);//menampilkan nomor pasien Bracket Notation
+console.log(pasien["fullName"]());//menampilkan pasien Bracket Notation
+
+
+
+
+console.log(0.1 + 0.2 == 0.3)//hasil dari 0.1 + 0.2 = 0.300000000000000004 jika di hitung, maka tidak sama dengan 0.3 karaena itu hasilnya false
+console.log(1 + "1")//hasilnya 11 karna 1 numerik dijumlahkan dengan 1 string
+console.log(1 - "1")//hasilnya 0 karna 1 numerik dikurangi dengan 1 string
+console.log(1 < 2 < 3)//1 lebih kecil dari 2 hasilnya true, maka true lebih kecil dari 3 hasilnya true
+console.log(3 > 2 > 1)//3 lebih besar dari 2 hasilnya false, false lebih besar dari 1 maka hasilnya false
+console.log(null == 0)//
+console.log(null > 0)
+console.log(null >= 0)
