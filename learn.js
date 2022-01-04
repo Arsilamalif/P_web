@@ -80,3 +80,31 @@ function volumeBalok(p,l,t){ //berfungsi menghitung volume balok
   }
   var h3=volumeBalok(4,4,4)//set nilai dari p,l,t
   console.log(h3)//menampilkan hasil volume balok
+
+
+var namahewan = ["Hiu","bebek","kangguru","toman","zebra","kudanil","singa"] // memebuat array
+console.log(namahewan[0]); // Menampikan Array 0
+console.log(namahewan[1]); // Menampikan Array 1
+console.log(namahewan[2]); // Menampikan Array 2
+console.log(namahewan[3]); // Menampikan Array 3
+console.log(namahewan[4]); // Menampikan Array 4
+console.log(namahewan[5]); // Menampikan Array 5
+namahewan[1]="cupang"; //mengganti array 1 menjadi cupang
+console.log(namahewan); // menampilkan array 
+
+namahewan.push("harimau"); //menambah array baru "harimau"
+console.log(namahewan); // menampilkan array 
+
+namahewan.pop("cupang"); // melihat dan menghapus item dari Array
+console.log(namahewan); // menampilkan array 
+
+console.log('Panjang Array = ', namahewan.length); // menghitung panjang Array
+
+namahewan.unshift("macan"); // menambah macan di awal Array
+console.log(namahewan); // menampilkan array 
+
+namahewan.shift(); // menampilkan dan menghapus item awal dari array
+console.log(namahewan); // menampilkan array 
+
+console.log(namahewan.sort()); // mengurutkan Array
+console.log(namahewan); // menampilkan array 
