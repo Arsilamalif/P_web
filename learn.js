@@ -27,3 +27,16 @@ console.log('x++ =', x++)//menjumlahkan variable x itu sendiri
 console.log('++x =', ++x)//menambahkan nilai x kemudian mengembalikan nilai x
 console.log('x-- =', x--)//kebalikan dari ++x
 console.log('--x =', --x)//kebalikan dari x++
+
+
+let a = 8//menampilkan variable a 
+let b = 4//menampilkan variable b
+console.log(a, b)//menampilkan variable a dan b
+console.log('a > b =', a > b)//menunjukkan bahwa a lebih besar daripada b
+console.log('a < b =', a < b)//menunjukkan bahwa a lebih kecil daripada b
+console.log('a >= b =', a >= b)//menunjukkan bahwa a besar sama dengan b
+console.log('a <= b =', a <= b)//menunjukkan bahwa a kecil sama dengan b
+console.log('a == b =', a == b)//menunjukkan bahwa a sama dengan b
+console.log('a != b =', a != b)//menunjukkan bahwa a tidak sama dengan b
+console.log('a === b =', a === b)//menunjukkan bahwa a sama dengan b
+console.log('a !== b =', a !== b)//menunjukkan bahwa a tidak sama dengan b
