@@ -143,6 +143,6 @@ console.log(1 + "1")//hasilnya 11 karna 1 numerik dijumlahkan dengan 1 string
 console.log(1 - "1")//hasilnya 0 karna 1 numerik dikurangi dengan 1 string
 console.log(1 < 2 < 3)//1 lebih kecil dari 2 hasilnya true, maka true lebih kecil dari 3 hasilnya true
 console.log(3 > 2 > 1)//3 lebih besar dari 2 hasilnya false, false lebih besar dari 1 maka hasilnya false
-console.log(null == 0)//
-console.log(null > 0)
-console.log(null >= 0)
+console.log(null == 0)//nilainya false karna null tidak memiliki arti
+console.log(null > 0)//nilainya false karna null tidak memiliki arti
+console.log(null >= 0)//nilainya true karna null tidak memiliki arti

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = prompt ("Masukkan Nama Buah");//meminta user memasukkan nama buah
+        switch (a) {//switch dengan kondisi variable a
+            case "pisang"://user memilih pisang
+                document.write("pisang batu <br> pisang ambon <br> pisang mas <br> pisang tanduk <br> pisang kepok <br> pisang uli <br> pisang klutuk")//menampilkan data pisang jika user menginputkan kata pisang
+                break;//program berhenti
+            case "jeruk"://user memilih jeruk
+                document.write("jeruk nipis <br> jeruk manis <br> jeruk bali <br> jeruk sitrun <br> jeruk keprok <br> jeruk purut <br> jeruk yuzu")//menampilkan data jeruk jika user menginputkan kata jeruk
+                break;//program berhenti
+            case "durian"://user memilih durian
+                document.write("durian musang king <br> durian lahung <br> durian tabelak <br> durian lai <br> durian kerantungan <br> durian kura-kura")//menampilkan data durian jika user menginputkan kata durian
+                break; //program berhenti
+            case "kurma"://user memilih kurma
+                document.write("kurma barhi <br> kurma sukkari  <br> kurma ajwa <br> kurma palm <br> kurma date crown <br> kurma medjoll")//menampilkan data kurma jika user menginputkan kata kurma
+                break;//program berhenti
+            case "apel"://user memilih apel
+            document.write("apel fuji <br> apel envy <br> apel royal gala <br> apel pink lady <br> apel queen <br> apel pacific rose <br> apel granny smith ")//menampilkan data apel jika user menginputkan kata apel
+            default://jika user tidak memilih pilihan yang ada pada case maka akan default
+                document.write("Mohon Maaf, Nama Buah Tidak Ditemukan")//jika user memasukkan pilihan selain yang ada pada case maka akan menamplkan "Mohon Maaf, Nama Buah Tidak Ditemukan"
+                break;//program berhenti
+        }
+
+    </script>
+</body>
+</html>
